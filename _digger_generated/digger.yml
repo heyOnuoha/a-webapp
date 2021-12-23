@@ -1,0 +1,60 @@
+project:
+  name: first30c7d
+services:
+  metaad4e07: !!python/object/apply:builtins.dict
+  - alias: Meta Aliens
+    build_command: npm run build
+    build_directory: ./dist
+    container_port: null
+    dockerfile: null
+    health_check: null
+    internal: false
+    lambda_handler: ''
+    load_balancer: true
+    name: metaad4e07
+    path: ./
+    pk: 593
+    repository: heyOnuoha/metaaliens
+    repository_type: github
+    service_name: metaad4e07
+    service_type: webapp
+    task_cpu: '256'
+    task_memory: '512'
+  metav85aef: !!python/object/apply:builtins.dict
+  - alias: MetaV2
+    build_command: npm run build
+    build_directory: ./dist
+    container_port: null
+    dockerfile: null
+    health_check: null
+    internal: false
+    lambda_handler: ''
+    load_balancer: true
+    name: metav85aef
+    path: ./
+    pk: 595
+    repository: heyOnuoha/MetaV2
+    repository_type: github
+    service_name: metav85aef
+    service_type: webapp
+    task_cpu: '256'
+    task_memory: '512'
+  seconb9558: !!python/object/apply:builtins.dict
+  - alias: Second Web App
+    build_command: npm run build
+    build_directory: ./build
+    container_port: null
+    dockerfile: null
+    health_check: null
+    internal: false
+    lambda_handler: ''
+    load_balancer: true
+    name: seconb9558
+    path: ./
+    pk: 594
+    repository: heyOnuoha/a-webapp
+    repository_type: github
+    service_name: seconb9558
+    service_type: webapp
+    task_cpu: '256'
+    task_memory: '512'

@@ -1,0 +1,15 @@
+produ375ba:
+  acm_certificate_arn_virginia: null
+  cloudfront_service_exists: true
+  create_dns_record: false
+  dggr_acm_certificate_arn: arn:aws:acm:eu-west-2:209539466991:certificate/36d2f96e-1b76-43e0-90bc-91c97000e2e3
+  dggr_acm_certificate_arn_virginia: arn:aws:acm:us-east-1:209539466991:certificate/a53c305f-0aa2-4166-94df-729d1903283c
+  dggr_hostname: dggr.app
+  dggr_zone_id: Z01023802GBWXW1MRJGTO
+  dns_zone_id: null
+  eks_service_exists: false
+  fargate_service_exists: false
+  hostname: null
+  lambda_service_exists: false
+  lb_ssl_certificate_arn: null
+  use_dggr_domain: true
